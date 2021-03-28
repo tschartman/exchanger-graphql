@@ -8,6 +8,7 @@ type Ticker {
   symbol: String
   priceUsd: Float
   priceBtc: String
+  percentChange24hUsd: Float
   lastUpdated: String
 }
 `;
